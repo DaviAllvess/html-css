@@ -1,0 +1,35 @@
+@charset "UTF-8"
+*
+<style>
+        body{
+            font-family:'work Sans' Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm,mm,in,'px',pt,pc
+            in:'polegads'
+            px:'pixel'
+            pt:'ponto'
+
+            Medidas Relativas
+            'em', ex, rem, vw,vh, %
+            16px geralmente = 1em
+            usar px ou em
+            */
+            font-size: 1em;
+            /*Lighter normal bold bolder*/
+        }
+        h1{
+            font-family: 'Work sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            
+            /*Shorthand Font
+            -font-style -> font-weight-> font-size-> font-family*/
+            font:italic bolder 3em 'work sans', sans-serif;
+        }
+
+        h2{
+            font: bold 2em 'work sans';
+        }
+    </style>
