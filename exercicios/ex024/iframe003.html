@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela{
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum distinctio ducimus, ratione omnis molestias odit quaerat illum a similique hic qui temporibus neque consequuntur esse nesciunt, officia inventore. Laudantium, fugit!</p>
+
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame"> Segunda página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum totam ipsam accusamus pariatur laborum voluptatibus, dolorem, quia non veritatis praesentium voluptate saepe perspiciatis autem quos magnam facilis obcaecati nesciunt? Iusto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque voluptatum consequuntur, ea inventore quae natus tempora, magni consectetur adipisci omnis numquam beatae! Aspernatur inventore eveniet asperiores consequatur rerum quo deleniti?</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1> uma as opções acima </h1> <p> Lorem  ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, architecto. Nisi temporibus dolore perspiciatis quas vitae consequatur recusandae, numquam aliquid hic saepe, error aut ipsa! Sunt id dolorem dicta quisquam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae ipsa cum praesentium alias ipsam modi in voluptatibus iusto eum esse vero quis illo, neque aspernatur voluptate exercitationem excepturi et quidem?</p>">
+        <p>Infelizmente não é compatível com isso.</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, architecto. Nisi temporibus dolore perspiciatis quas vitae consequatur recusandae, numquam aliquid hic saepe, error aut ipsa! Sunt id dolorem dicta quisquam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae ipsa cum praesentium alias ipsam modi in voluptatibus iusto eum esse vero quis illo, neque aspernatur voluptate exercitationem excepturi et quidem?</p>
+</body>
+</html>
