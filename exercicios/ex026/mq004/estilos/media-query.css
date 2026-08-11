@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+/* Todas as demais mídias */
+
+/* Typical Device Breakpoints 
+---------------------------------
+
+Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet: de 769px até 1024px
+Desktop:1025px até 1400px
+Grandes telas: acima de 1440px até 1920 ou mais (monitores 2k, 4k e desktops espaçosos.)
+*/
+
+@media print {
+    
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    
+}
